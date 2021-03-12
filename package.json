@@ -1,0 +1,26 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "description": "An example Cypress e2e test project",
+  "main": "index.js",
+  "scripts": {
+    "cy": "./node_modules/.bin/cypress",
+    "cy:open": "npm run cy open",
+    "test": "npm run cy run -- -q --headed",
+    "cy:headless": "npm run cy run -- -q",
+    "ci": "npm run cy run -- -q"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "ui",
+    "test",
+    "automation"
+  ],
+  "author": "Brine",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/cypress": "7.0.4",
+    "cypress": "6.6.0"
+  }
+}

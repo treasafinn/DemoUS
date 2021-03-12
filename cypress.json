@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://gift-cards.phorest.com",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 800000,
+    "fixturesFolder": "fixtures",
+    "integrationFolder": "specs",
+    "pluginsFile": "plugins",
+    "screenshotsFolder": "screenshots",
+    "supportFile": "support"
+}
